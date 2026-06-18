@@ -1,0 +1,4 @@
+services:
+  clear-cap-assignment:
+    build: .
+    command: npm run test
