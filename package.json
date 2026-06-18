@@ -1,0 +1,36 @@
+{
+  "name": "clear-cap-assignment",
+  "version": "1.0.0",
+  "description": "A Parse Tool",
+  "keywords": [
+    "tab",
+    "parser"
+  ],
+  "homepage": "https://github.com/juventus18/clear-cap-assignment#readme",
+  "bugs": {
+    "url": "https://github.com/juventus18/clear-cap-assignment/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juventus18/clear-cap-assignment.git"
+  },
+  "license": "MIT",
+  "author": "Sean Reeves",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.9.3",
+    "jest": "^30.4.2",
+    "ts-jest": "^29.4.11",
+    "typescript": "^6.0.3"
+  },
+  "volta": {
+    "node": "26.3.0"
+  },
+  "dependencies": {}
+}
