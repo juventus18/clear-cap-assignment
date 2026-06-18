@@ -53,27 +53,27 @@ describe("TokenReader", () => {
   });
 
   it("should return empty strings for consecutive tabs", async () => {
-    const reader = new TokenReader("./sample-files/sample-consecutive-tabs.tab");
-    expect(await reader.getNextLineTokens()).toEqual([
-      "a",
-      "",
-      "b"
-    ]);
+    const reader = new TokenReader(
+      "./sample-files/sample-consecutive-tabs.tab",
+    );
+    expect(await reader.getNextLineTokens()).toEqual(["a", "", "b"]);
   });
 
   it("should return empty strings for first or last tabs", async () => {
-    const reader = new TokenReader("./sample-files/sample-first-or-last-tabs.tab");
+    const reader = new TokenReader(
+      "./sample-files/sample-first-or-last-tabs.tab",
+    );
     expect(await reader.getNextLineTokens()).toEqual([
       "",
       "first",
       "char",
-      "tab"
+      "tab",
     ]);
     expect(await reader.getNextLineTokens()).toEqual([
       "last",
       "char",
       "tab",
-      ""
+      "",
     ]);
   });
 

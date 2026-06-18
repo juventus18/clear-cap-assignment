@@ -33,7 +33,7 @@ export class TokenParserFactory {
       // case '.csv':
       //   return new CsvParser();
       // ...
-      // if the extension is not supported, or the file does not have an extension,
+      // if the extension is not supported
       // throw an error
       default:
         throw new Error(`Unknown file extension: ${ext}`);

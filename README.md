@@ -14,7 +14,7 @@ There could be some different handling around the edge case of lines with only t
 
 ## Dependencies
 
-This project was built using Nodejs v26.3.0, NPM 11.16.0, Typescript 6.0.3 and Docker/Docker Compose.
+This project was built using Nodejs v26.3.0, NPM 11.16.0, Typescript 6.0.3 and Docker/Docker Compose. Other versions may work, but have not been tested
 
 ## Quick Start
 
@@ -31,7 +31,7 @@ If you make modifications to the code and want to re-run the test suite under Do
 
 ## Running Test Suite Locally
 
-1. Ensure you have Nodejs v26.3.0 and NPM 11.16.0 installed on your machine. (other versions may work but have not been tested).
+1. Ensure you have Nodejs v26.3.0 and NPM 11.16.0 installed on your machine.
 2. Navigate to the project directory in your terminal.
 3. Run `npm install` to install the dependencies.
 4. Run `npm run test` to run the test suite.

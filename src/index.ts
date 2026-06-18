@@ -83,7 +83,9 @@ async function consecutiveTabs() {
 async function firstOrLastTabs() {
   console.log("===firstOrLastTabs() output===");
 
-  const reader = new TokenReader("./sample-files/sample-first-or-last-tabs.tab");
+  const reader = new TokenReader(
+    "./sample-files/sample-first-or-last-tabs.tab",
+  );
 
   console.log(await reader.getNextLineTokens());
   console.log(await reader.getNextLineTokens());
